@@ -1,0 +1,52 @@
+# Site settings
+title: @noeunkim
+description: "Engineer Blog"
+baseurl: "/space-jekyll-template"
+url: "http://noeunkim.github.io/space-jekyll-template/"
+
+# User settings
+username: Noeun Kim
+user_title: MLOps Engineer
+email: noeunkim511@ipsum.com
+github_username:  @noeunkim
+linkedin_public_url: noeunkim
+profile_picture: https://media.licdn.com/dms/image/D5603AQFUoAfVF4W8AA/profile-displayphoto-shrink_400_400/0/1706844021695?e=1714608000&v=beta&t=T2SF8ekxP46P2rzi_e1Pw--hmlWU8zwfl47X4Fo9xjs
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  section_1:
+    - title: home
+      url: /
+      key_trigger: 1
+    - title: my posts
+      url: /posts
+      key_trigger: 2
+    - title: tags
+      url: /tags
+      key_trigger: 3
+    - title: about me
+      url: /about
+      key_trigger: 4
+  section_2:
+    - title: github
+      url: https://github.com/noeunkim
+      new_tab: true
+      key_trigger: g
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
